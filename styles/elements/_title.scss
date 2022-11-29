@@ -1,0 +1,14 @@
+
+.title{
+    line-height: 1.1;
+    font-weight: 400;
+    margin-bottom: 0;
+
+    &_sm{
+        font-size: 15px;
+        text-transform: uppercase;
+        }
+    &_lg{
+        font-size: 25px;
+    }
+}

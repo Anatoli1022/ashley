@@ -1,0 +1,19 @@
+
+.link{
+display: inline-block;
+text-transform: uppercase;
+font-size: 12px;
+text-decoration: none;
+
+    &_black{
+        padding-bottom: 5px;
+        color: rgba(38, 38, 38, 1);
+        border-bottom: 2px solid #262626 ;
+    }
+
+    &_white{
+        color: #F1F1EE;
+        border-bottom: 1px solid #F1F1EE ;
+        padding-bottom: 5px;
+    }
+}

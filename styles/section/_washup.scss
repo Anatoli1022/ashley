@@ -1,0 +1,34 @@
+.washup {
+    position: relative;
+    $washup: &;
+
+    #{$washup}__background {
+        max-width: 1440px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 800px;
+        overflow: hidden;
+        z-index: -1;
+
+        #{$washup}__inner {
+            position: relative;
+
+            #{$washup}__background-item1 {
+                position: absolute;
+                top: 0;
+                left: 0px;
+            }
+
+            #{$washup}__background-item2 {
+                position: absolute;
+                top: 0;
+                right: 0px;
+            }
+        }
+
+
+
+    }
+
+}
