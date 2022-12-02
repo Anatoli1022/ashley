@@ -1,14 +1,9 @@
 .hand {
     $hand: &;
-    padding-bottom: 40px;
-    background-color: #9C8554;
-    color: #F1F1EE;
 
     .container {
         display: flex;
         justify-content: space-between;
-
-       
 
         #{$hand}__title {
             max-width: 290px;
@@ -16,14 +11,12 @@
             margin-left: auto;
         }
 
-
         #{$hand}__information {
             margin-top: 40px;
+            padding-left: 40px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-left: 40px;
-                  
 
             #{$hand}__block-text {
                 max-width: 260px;

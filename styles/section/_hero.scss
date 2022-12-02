@@ -1,6 +1,6 @@
 .hero {
     $hero: &;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     background-color: #E7F066;
 
     .container {
@@ -9,7 +9,6 @@
         #{$hero}__title {
             margin-top: 40px;
         }
-
 
         #{$hero}__information {
             margin-top: 140px;
@@ -21,8 +20,6 @@
                 #{$hero}__information-text {
                     margin-top: 0;
                     margin-bottom: 0;
-
-
                 }
 
                 #{$hero}__information-link {
