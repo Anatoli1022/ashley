@@ -1,0 +1,36 @@
+.hand {
+    $hand: &;
+
+    #{$hand}__container {
+        display: flex;
+        justify-content: space-between;
+
+        #{$hand}__title {
+            max-width: 290px;
+            margin-top: 40px;
+            margin-left: auto;
+        }
+
+        #{$hand}__information {
+            margin-top: 40px;
+            padding-left: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            #{$hand}__block-text {
+                max-width: 260px;
+                margin-top: 0;
+                margin-bottom: 0;
+
+            }
+
+            #{$hand}__block-link {
+                margin-top: 25px;
+            }
+
+        }
+
+    }
+
+}

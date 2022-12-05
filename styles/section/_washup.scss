@@ -1,0 +1,36 @@
+.washup {
+    $washup: &;
+    color: #262626;
+    background-color: #ab9973;
+
+    .container {
+        display: flex;
+
+        #{$washup}__background-1 {
+            height: 800px;
+            width: 100%;
+            flex-grow: 1;
+            background-image: url(/images/washup/background-1.jpg);
+            /*сделать изображение х2*/
+            background-repeat: no-repeat;
+            background-position: left;
+
+        }
+
+        #{$washup}__background-2 {
+            height: 800px;
+            width: 100%;
+            flex-grow: 1;
+            background-image: url(/images/washup/background-2.jpg);
+              /*сделать изображение х2*/
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+
+        #{$washup}__link {
+            margin-left: 40px;
+            margin-top: 740px;
+        }
+    }
+
+}

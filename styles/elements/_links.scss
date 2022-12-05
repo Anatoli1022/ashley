@@ -1,0 +1,17 @@
+.link {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding-bottom: 5px;
+
+    &.-black {
+        color: rgba(38, 38, 38, 1);
+        border-bottom: 2px solid #262626;
+    }
+
+    &.-white {
+        color: #CCCCCC;
+        border-bottom: 1px solid #CCCCCC;;
+    }
+}
