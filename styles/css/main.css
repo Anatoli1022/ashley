@@ -7,11 +7,6 @@ body {
   font-size: 16px;
 }
 
-@media only screen and (max-width: 1023px) {
-  body {
-    line-height: 1.2;
-  }
-}
 /*elements*/
 .container {
   max-width: 1440px;
@@ -74,28 +69,27 @@ body {
   right: 0;
   padding-top: 30px;
 }
-.page-header .container {
+.page-header .page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 40px;
   padding-right: 40px;
 }
-.page-header .container .page-header__logo {
+.page-header .page-header__container .page-header__logo {
   z-index: 1;
-  max-width: 100px;
 }
-.page-header .container .page-header__navigation {
+.page-header .page-header__container .page-header__navigation {
   display: flex;
   /* Гамбургер иконка */
 }
-.page-header .container .page-header__navigation .page-header__navigation-link {
+.page-header .page-header__container .page-header__navigation .page-header__navigation-link {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 13px;
   color: rgb(38, 38, 38);
 }
-.page-header .container .page-header__navigation .page-header__menu-btn {
+.page-header .page-header__container .page-header__navigation .page-header__menu-btn {
   display: block;
   width: 24px;
   height: 18px;
@@ -253,28 +247,28 @@ body {
   margin-top: 10px;
 }
 
-.hand .container {
+.hand .hand__container {
   display: flex;
   justify-content: space-between;
 }
-.hand .container .hand__title {
+.hand .hand__container .hand__title {
   max-width: 290px;
   margin-top: 40px;
   margin-left: auto;
 }
-.hand .container .hand__information {
+.hand .hand__container .hand__information {
   margin-top: 40px;
   padding-left: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.hand .container .hand__information .hand__block-text {
+.hand .hand__container .hand__information .hand__block-text {
   max-width: 260px;
   margin-top: 0;
   margin-bottom: 0;
 }
-.hand .container .hand__information .hand__block-link {
+.hand .hand__container .hand__information .hand__block-link {
   margin-top: 25px;
 }
 
@@ -290,6 +284,7 @@ body {
   width: 100%;
   flex-grow: 1;
   background-image: url(/images/washup/background-1.jpg);
+  /*сделать изображение х2*/
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -298,6 +293,7 @@ body {
   width: 100%;
   flex-grow: 1;
   background-image: url(/images/washup/background-2.jpg);
+  /*сделать изображение х2*/
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -351,7 +347,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   color: #262626;
-  /*Фикс задний фон*/
+  /*сделать изображение х2*/
 }
 .room-mist .room-mist__text-info {
   padding-top: 120px;

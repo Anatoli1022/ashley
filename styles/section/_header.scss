@@ -7,7 +7,7 @@
     padding-top: 30px;
 
 
-    .container {
+    #{$header}__container {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -16,7 +16,6 @@
 
         #{$header}__logo {
             z-index: 1;
-            max-width: 100px;
         }
 
         #{$header}__navigation {
@@ -161,3 +160,8 @@
 }
 
 /*MOBILE MENU */
+
+
+@media only screen and (max-width : 1023px) {
+
+}

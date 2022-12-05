@@ -1,7 +1,7 @@
 .hand {
     $hand: &;
 
-    .container {
+    #{$hand}__container {
         display: flex;
         justify-content: space-between;
 
