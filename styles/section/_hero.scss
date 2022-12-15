@@ -1,0 +1,34 @@
+.hero {
+    padding-bottom: 40px;
+    background-color: #E7F066;
+
+    &__container {
+        display: flex;
+    }
+
+    &__title {
+        margin-top: 40px;
+    }
+
+    &__information {
+        margin-top: 140px;
+
+    }
+
+    &__information-info {
+        margin-left: 40px;
+        max-width: 290px;
+    }
+
+    &__information-text {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &__information-link {
+        margin-top: 40px;
+
+    }
+
+
+}

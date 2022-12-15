@@ -1,0 +1,15 @@
+
+.title{
+    line-height: 1.1;
+    font-weight: 400;
+    margin-bottom: 0;
+
+    &_sm{
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 0;
+        }
+    &_lg{
+        font-size: 25px;
+    }
+}

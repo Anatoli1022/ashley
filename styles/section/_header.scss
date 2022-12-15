@@ -1,0 +1,76 @@
+.page-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    &__logo {
+        z-index: 1;
+    }
+
+    &__navigation {
+        display: flex;
+    }
+
+    &__navigation-link {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 13px;
+        color: rgba(38, 38, 38, 1);
+    }
+
+    /* Гамбургер иконка */
+    &__menu-btn {
+        display: block;
+        width: 24px;
+        height: 18px;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        background: none;
+        border: none;
+        margin-left: 55px;
+        cursor: pointer;
+    }
+
+    .menu-btn__button {
+        width: 24px;
+        height: 3px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #222222;
+        transition: all 0.5s;
+    }
+
+    &__menu-btn .menu-btn__button:nth-of-type(1) {
+        top: calc(50% - 5px);
+    }
+
+    &__menu-btn .menu-btn__button:nth-of-type(2) {
+        top: calc(50% + 5px);
+    }
+
+    &__menu-btn.active .menu-btn__button:nth-of-type(1) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &__menu-btn.active .menu-btn__button:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+
+}

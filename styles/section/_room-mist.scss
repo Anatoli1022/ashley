@@ -1,0 +1,32 @@
+.room-mist {
+    background-color: #87807f;
+    height: 800px;
+    background-image: url(/images/room-mist/room-mist.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #262626;
+    /*сделать изображение х2*/
+
+
+    &__text-info {
+        padding-top: 120px;
+        max-width: 300px;
+        padding-left: 40px;
+    }
+
+    &__title {
+        margin-top: 30x;
+    }
+
+    &__text {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    &__link {
+        margin-top: 10px;
+    }
+
+
+
+}
