@@ -1,5 +1,4 @@
 .room-mist {
-    $room-mist: &;
     background-color: #87807f;
     height: 800px;
     background-image: url(/images/room-mist/room-mist.jpg);
@@ -8,24 +7,24 @@
     color: #262626;
     /*сделать изображение х2*/
 
-   
-    #{$room-mist}__text-info {
+
+    &__text-info {
         padding-top: 120px;
         max-width: 300px;
         padding-left: 40px;
+    }
 
-        #{$room-mist}__title {
-            margin-top: 30x;
-        }
+    &__title {
+        margin-top: 30x;
+    }
 
-        #{$room-mist}__text{
-            margin-top: 40px;
-            margin-bottom: 0;
-        }
+    &__text {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
 
-        #{$room-mist}__link{
-            margin-top: 10px;
-        }
+    &__link {
+        margin-top: 10px;
     }
 
 

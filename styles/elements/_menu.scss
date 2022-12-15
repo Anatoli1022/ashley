@@ -1,0 +1,54 @@
+/*MENU */
+/* Меню, которое будет появляться */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background: rgba(61, 61, 61, 0.72);
+    backdrop-filter: blur(5px);
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+    padding-left: 0;
+    padding-top: 0;
+    z-index: 1;
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+
+.menu-navigation {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu__list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu__list-item {
+    margin-top: 40px;
+}
+
+.menu__list .menu__list-item:first-child {
+    margin-top: 0;
+}
+
+.menu__list__item-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+
+}
+/*MENU */

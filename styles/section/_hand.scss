@@ -1,0 +1,54 @@
+.hand {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        margin-top: 40px;
+        text-align: end;
+    }
+
+    &__information {
+        margin-top: 40px;
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__block-text {
+        max-width: 260px;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    &__block-link {
+        margin-top: 25px;
+    }
+
+
+}
+
+
+.background {
+    padding-bottom: 40px;
+    color: #CCCCCC;
+    &_brown {
+        background-color: #054247;  
+    }
+
+    &_pink {
+        background-color: #A26779;
+    }
+
+    &_black {
+        background-color: #504B4D;
+    }
+
+    &_red {
+        background-color: #B04836;
+    }
+
+}
