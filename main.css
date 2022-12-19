@@ -478,6 +478,7 @@ body img {
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 10px;
   /* Оформление кнопок */
 }
 .cookie__notice .cookie__btn {
@@ -510,20 +511,21 @@ body img {
     padding-right: 15px;
   }
   .cookie__notice .cookie__btn {
-    font-size: 10px;
+    font-size: 8px;
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 @media only screen and (max-width: 479px) {
   .cookie__notice {
+    font-size: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
   }
   .cookie__notice .cookie__btn {
-    font-size: 8px;
+    font-size: 6px;
     margin-top: 5px;
     margin-left: 3px;
     margin-right: 3px;
