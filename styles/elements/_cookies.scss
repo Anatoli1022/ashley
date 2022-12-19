@@ -8,56 +8,73 @@
     text-align: center;
     color: #F1F1EE;
     background: #1B1B1B;
-   padding-top: 20px;
-   padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
-/* Оформление кнопок */
-.cookie__btn {
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 6px;
-    margin-right: 6px;
-    margin-bottom: 4px;
-    text-decoration: none;
-    position: relative;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 12px;
-    padding-right: 12px;
-    color: #F1F1EE;
-    text-transform: uppercase; 
-    border-bottom: 2px solid #BFE2FF;
-}
-.cookie__btn:hover {
-    color:  #1B1B1B;
-    background-color: #F1F1EE;
-    transition: 0.7ms;
-}
-
-}
-
-
-    @media only screen and (max-width : 767px) {
-        .cookie__notice {
-            padding-top: 15px;
-            padding-bottom: 15px;
-
-            .cookie__btn {
-                padding-left: 10px;
-                padding-right: 10px;
-        }
-
-      
-        }
+    /* Оформление кнопок */
+    .cookie__btn {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-bottom: 4px;
+        text-decoration: none;
+        position: relative;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 12px;
+        padding-right: 12px;
+        color: #F1F1EE;
+        text-transform: uppercase;
+        border-bottom: 2px solid #BFE2FF;
     }
-    
-        @media only screen and (max-width : 479px) {
 
-            .cookie__notice {
-                padding-top: 10px;
-                padding-bottom: 10px;
-    
-          
-            }
-          
+    .cookie__btn:hover {
+        color: #1B1B1B;
+        background-color: #F1F1EE;
+        transition: 0.7ms;
+    }
+
+}
+
+
+@media only screen and (max-width : 767px) {
+    .cookie__notice {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    padding-right: 15px;
+
+        .cookie__btn {
+            padding-left: 10px;
+            padding-right: 10px;
         }
+
+
+    }
+}
+
+@media only screen and (max-width : 479px) {
+
+    .cookie__notice {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .cookie__btn {
+            margin-top: 5px;
+            margin-left: 3px;
+            margin-right: 3px;
+            margin-bottom: 2px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+    }
+
+}
