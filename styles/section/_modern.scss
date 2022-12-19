@@ -1,0 +1,47 @@
+.modern {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /*Исправить*/
+    background-color: #EBEBEB;
+    color: #262626;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__information {
+        margin-left: 30px;
+
+    }
+
+    &__information-large {
+        font-size: 28px;
+        max-width: 200px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    &__information-text {
+        max-width: 280px;
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    &__information-body {
+        max-width: 300px;
+        margin-top: 20px;
+        margin-bottom: 0;
+
+    }
+
+    &__information-link {
+        margin-top: 25px;
+    }
+
+    &__wrapper {
+        order: -1;
+    }
+
+}
