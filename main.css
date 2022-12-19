@@ -619,12 +619,7 @@ body img {
 
 .room-mist {
   background-color: #87807f;
-  height: 800px;
-  background-image: url(/images/room-mist/room-mist.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
   color: #262626;
-  /*сделать изображение х2*/
 }
 .room-mist__text-info {
   padding-top: 120px;

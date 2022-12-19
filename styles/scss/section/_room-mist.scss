@@ -1,15 +1,15 @@
 .room-mist {
     $room-mist: &;
     background-color: #87807f;
-    height: 800px;
-    background-image: url(/images/room-mist/room-mist.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
     color: #262626;
+<<<<<<< Updated upstream:styles/scss/section/_room-mist.scss
     /*сделать изображение х2*/
 
    
     #{$room-mist}__text-info {
+=======
+    &__text-info {
+>>>>>>> Stashed changes:styles/section/_room-mist.scss
         padding-top: 120px;
         max-width: 300px;
         padding-left: 40px;
