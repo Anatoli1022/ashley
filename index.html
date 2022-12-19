@@ -26,7 +26,7 @@
             </nav>
         </div>
     </header>
-    
+
     <div class="menu">
         <nav class="menu-navigation">
             <ul class="menu__list">
@@ -82,9 +82,14 @@
 
     <div class="washup">
         <div class="container washup__container">
-            <div class="washup__background-1"> <a href="#" class="washup__link link link_black">Dialed to 70% alcohol</a>
+            <div class="washup__content"> <a href="#" class="washup__link link link_black">Dialed to 70% alcohol</a>
+                <img class="washup__background-1" src="./images/washup/background-1.jpg"
+                    srcset="./images/washup/background-1-2x.jpg 2x" loading="lazy" aria-hidden="true" alt="">
             </div>
-            <div class="washup__background-2"> <a href="#" class="washup__link link link_black">Refill with topup</a></div>
+            <div class="washup__content"> <a href="#" class="washup__link link link_black">Refill with topup</a>
+                <img class="washup__background-2" src="./images/washup/background-2.jpg"
+                    srcset="./images/washup/background-2-2x.jpg " loading="lazy" aria-hidden="true" alt="">
+            </div>
         </div>
     </div>
 
@@ -115,7 +120,7 @@
 
 
     <section class="room-mist ">
-        <div class="container">
+        <div class="container ">
             <div class="room-mist__text-info">
                 <h2 class="title title_sm">Room mist</h2>
                 <h3 class="room-mist__title title title_lg">Hip-hop, house swap</h3>
@@ -123,8 +128,9 @@
                     Five. Blond Tobacco, cinders
                     of burnt Birch laced with Geranium, Violet Leaves and the humble Tonka Bean.</p>
                 <a href="#" class="room-mist__link link link_black">SHOP NINE TO FIVE</a>
+                <img class="room-mist__background" src="./images/room-mist/room-mist.jpg"
+                    srcset="./images/room-mist/room-mist-2x.jpg 2x" loading="lazy" aria-hidden="true" alt="">
             </div>
-
         </div>
     </section>
 
@@ -204,16 +210,14 @@
         </div>
     </footer>
 
-    <div class="cookies container">
-        <p class=" cookies__text">This website uses cookies to give you the best shopping experience. By
-            continuing
-            to browse the website we assume that you agree to the use of such cookies. Learn more about
-            cookies
-            and how we use them. 
-        </p>
-        <button class="button cookies__accept">Accept all</button>
+    <div class="cookie__notice">
+        This website uses cookies to give you the best shopping experience. By continuing to browse the website we
+        assume that you agree to the use of such cookies. Learn more about cookies and how we use them.
+        <div>
+            <a class="cookie__btn" id="cookie__close" href="#close">Accept All</a>
+            <a class="cookie__btn " href="#politika">Learn More</a>
+        </div>
     </div>
-
 
 </body>
 <script src="./script.js"></script>

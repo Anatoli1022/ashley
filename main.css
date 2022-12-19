@@ -321,6 +321,10 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+body img {
+  max-width: 100%;
+  display: block;
+}
 
 /*elements*/
 .container {
@@ -414,6 +418,38 @@ body {
 }
 
 /*MENU */
+.cookie_notice {
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #F1F1EE;
+  background: #1B1B1B;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Оформление кнопок */
+.cookie_btn {
+  display: inline-block;
+  margin: 10px 6px 4px 6px;
+  text-decoration: none;
+  position: relative;
+  padding: 4px 12px;
+  color: #F1F1EE;
+  text-transform: uppercase;
+  border-bottom: 2px solid #BFE2FF;
+}
+
+.cookie_btn:hover {
+  color: #1B1B1B;
+  background-color: #F1F1EE;
+  transition: 0.2ms;
+}
+
 /*section*/
 .page-header {
   position: absolute;
@@ -513,7 +549,7 @@ body {
   text-align: end;
 }
 .hand__information {
-  margin-top: 40px;
+  padding-top: 40px;
   padding-left: 40px;
   display: flex;
   flex-direction: column;
@@ -547,28 +583,39 @@ body {
 
 .washup {
   color: #262626;
+  position: relative;
   background-color: #ab9973;
 }
 .washup__container {
   display: flex;
 }
-.washup__background-1 {
+.washup__content {
+  position: relative;
+  width: 720px;
   height: 800px;
+  z-index: 2;
+}
+.washup__background-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-  flex-grow: 1;
-  background-image: url(/images/washup/background-1.jpg);
-  /*сделать изображение х2*/
-  background-repeat: no-repeat;
-  background-position: left;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
 }
 .washup__background-2 {
-  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-  flex-grow: 1;
-  background-image: url(/images/washup/background-2.jpg);
-  /*сделать изображение х2*/
-  background-repeat: no-repeat;
-  background-position: right;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
 }
 .washup__link {
   margin-left: 40px;
@@ -614,18 +661,15 @@ body {
 }
 
 .room-mist {
-  background-color: #87807f;
-  height: 800px;
-  background-image: url(/images/room-mist/room-mist.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
+  position: relative;
   color: #262626;
-  /*сделать изображение х2*/
+  height: 880px;
 }
 .room-mist__text-info {
   padding-top: 120px;
   max-width: 300px;
   padding-left: 40px;
+  z-index: 3;
 }
 .room-mist__title {
   margin-top: 30x;
@@ -636,6 +680,17 @@ body {
 }
 .room-mist__link {
   margin-top: 10px;
+}
+.room-mist__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
 }
 
 .footer {

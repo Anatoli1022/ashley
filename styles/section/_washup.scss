@@ -1,35 +1,46 @@
 .washup {
     color: #262626;
+    position: relative;
     background-color: #ab9973;
 
     &__container {
         display: flex;
     }
 
-    &__background-1 {
+    &__content {
+        position: relative;
+        width: 720px;
         height: 800px;
+        z-index: 2;
+    }
+
+    &__background-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
         width: 100%;
-        flex-grow: 1;
-        background-image: url(/images/washup/background-1.jpg);
-        /*сделать изображение х2*/
-        background-repeat: no-repeat;
-        background-position: left;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
 
     }
 
     &__background-2 {
-        height: 800px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
         width: 100%;
-        flex-grow: 1;
-        background-image: url(/images/washup/background-2.jpg);
-        /*сделать изображение х2*/
-        background-repeat: no-repeat;
-        background-position: right;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
     }
 
     &__link {
         margin-left: 40px;
         margin-top: 740px;
+
     }
 
 }
