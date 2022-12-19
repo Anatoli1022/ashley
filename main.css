@@ -418,7 +418,7 @@ body img {
 }
 
 /*MENU */
-.cookie_notice {
+.cookie__notice {
   display: none;
   position: fixed;
   z-index: 9999999;
@@ -430,10 +430,9 @@ body img {
   background: #1B1B1B;
   padding-top: 20px;
   padding-bottom: 20px;
+  /* Оформление кнопок */
 }
-
-/* Оформление кнопок */
-.cookie_btn {
+.cookie__notice .cookie__btn {
   display: inline-block;
   margin: 10px 6px 4px 6px;
   text-decoration: none;
@@ -443,8 +442,7 @@ body img {
   text-transform: uppercase;
   border-bottom: 2px solid #BFE2FF;
 }
-
-.cookie_btn:hover {
+.cookie__notice .cookie__btn:hover {
   color: #1B1B1B;
   background-color: #F1F1EE;
   transition: 0.2ms;
