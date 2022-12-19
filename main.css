@@ -481,7 +481,7 @@ body img {
   /* Оформление кнопок */
 }
 .cookie__notice .cookie__text {
-  font-size: 12px;
+  font-size: 16px;
 }
 .cookie__notice .cookie__btn {
   display: inline-block;
