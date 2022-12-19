@@ -7,11 +7,32 @@
 
     &_black {
         color: rgba(38, 38, 38, 1);
-        border-bottom: 2px solid #262626;
+        border-bottom: 1px solid #262626;
     }
 
     &_white {
         color: #CCCCCC;
         border-bottom: 1px solid #CCCCCC;;
+    }
+}
+
+@media only screen and (max-width : 1023px) {
+
+    .link {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width : 767px) {
+    .link {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .link {
+        padding-bottom: 2px;
+        font-size: 5px;
     }
 }

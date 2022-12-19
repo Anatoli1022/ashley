@@ -1,7 +1,6 @@
 .modern {
     padding-top: 100px;
     padding-bottom: 100px;
-    /*Исправить*/
     background-color: #EBEBEB;
     color: #262626;
 
@@ -33,6 +32,7 @@
         max-width: 300px;
         margin-top: 20px;
         margin-bottom: 0;
+        font-size: 16px;
 
     }
 
@@ -42,6 +42,98 @@
 
     &__wrapper {
         order: -1;
+    }
+
+}
+
+@media only screen and (max-width : 1023px) {
+
+    .modern {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        &__information {
+            margin-left: 30px;
+            padding-right: 20px;
+        }
+
+        &__information-large {
+            font-size: 24px;
+        }
+
+        &__information-text {
+            margin-top: 30px;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width : 767px) {
+    .modern {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        &__information {
+            margin-left: 20px;
+            padding-right: 20px;
+    
+        }
+    
+        &__information-large {
+            font-size: 18px;
+        }
+    
+        &__information-text {
+            font-size: 10px;
+            margin-top: 20px;
+        }
+    
+        &__information-body {
+            margin-top: 15px;
+            font-size: 12px;
+    
+        }
+    
+        &__information-link {
+            margin-top: 15px;
+        }
+    
+    }
+
+}
+
+@media only screen and (max-width : 479px) {
+
+    .modern {
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        &__information {
+            margin-left: 15px;
+            padding-right: 15px;
+    
+        }
+    
+        &__information-large {
+            font-size: 12px;
+        }
+    
+        &__information-text {
+            font-size: 6px;
+            margin-top: 10px;
+        }
+    
+        &__information-body {
+            margin-top: 10px;
+            font-size: 8px;
+    
+        }
+    
+        &__information-link {
+            margin-top: 10px;
+        }
+    
     }
 
 }

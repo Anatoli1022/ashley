@@ -13,3 +13,33 @@
         font-size: 25px;
     }
 }
+
+
+@media only screen and (max-width : 767px) {
+    
+.title{
+    &_sm{
+        font-size: 12px;
+     
+        }
+    &_lg{
+        font-size: 20px;
+    }
+}
+
+}
+
+@media only screen and (max-width : 479px) {
+
+    .title{
+        &_sm{
+            font-size: 9px;
+         
+            }
+        &_lg{
+            font-size: 13px;
+        }
+    }
+    
+
+}

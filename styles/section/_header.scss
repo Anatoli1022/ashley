@@ -74,3 +74,77 @@
 
 
 }
+
+@media only screen and (max-width : 1023px) {
+
+    .page-header {
+        &__container {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        &__logo {
+            max-width: 80px;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width : 767px) {
+    .page-header {
+        padding-top: 20px;
+
+        &__logo {
+            max-width: 70px;
+
+        }
+
+        &__navigation-link {
+            font-size: 10px;
+        }
+
+        &__menu-btn {
+            width: 20px;
+            height: 15px;
+            margin-left: 40px;
+        }
+
+        .menu-btn__button {
+            width: 20px;
+            height: 3px;
+        }
+
+
+
+    }
+
+}
+
+@media only screen and (max-width : 479px) {
+    .page-header {    
+        padding-top: 15px;
+        &__container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        &__logo {
+           max-width: 50px;
+        }
+
+        &__navigation-link {
+          font-size: 8px;
+        }
+    
+        &__menu-btn {
+            width: 15px;
+            margin-left: 20px;
+        }
+    
+        .menu-btn__button {
+            width: 15px;
+        }
+    
+    }
+}

@@ -7,7 +7,6 @@
         padding-top: 120px;
         max-width: 300px;
         padding-left: 40px;
-        z-index: 3;
     }
 
     &__title {
@@ -33,7 +32,65 @@
         object-fit: cover;
         z-index: -1;
     }
+}
+
+@media only screen and (max-width : 1023px) {
+
+    .room-mist {
+        height: 600px;
+        &__text-info {
+            padding-top: 100px;
+            padding-left: 30px;
+        }
+    
+        &__text {
+            margin-top: 30px;
+        }
+    }
+
+}
+
+@media only screen and (max-width : 767px) {
+
+    .room-mist {
+        height: 400px;
+    
+        &__text-info {
+            padding-top: 70px;
+            padding-left: 20px;
+        }
+
+        &__text {
+            margin-top: 20px;
+        }
+    
+        &__title {
+            margin-top: 20px;
+        }
+    
+    }
+}
 
 
+@media only screen and (max-width :479px) {
+
+    .room-mist {
+        height: 230px;
+    
+        &__text-info {
+            padding-top: 40px;
+            padding-left: 15px;
+            max-width: 200px;
+        }
+
+        &__text {
+            margin-top: 15px;
+        }
+    
+        &__title {
+            margin-top: 15px;
+        }
+    
+    }
 
 }

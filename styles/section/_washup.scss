@@ -44,3 +44,47 @@
     }
 
 }
+
+@media only screen and (max-width : 1023px) {
+
+    .washup {
+        &__content {
+            height: 600px;
+        }
+
+        &__link {
+            margin-top: 550px;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width : 767px) {
+
+    .washup {
+        &__content {
+            height: 400px;
+        }
+
+        &__link {
+            margin-top: 350px;
+        }
+
+    }
+}
+
+@media only screen and (max-width :479px) {
+
+    .washup {
+        &__content {
+            height: 230px;
+        }
+
+        &__link {
+            margin-left: 20px;
+            margin-top: 200px;
+        }
+
+    }
+}
